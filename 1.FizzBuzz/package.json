@@ -1,0 +1,17 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FizzBuzz Kata for TDD workshop",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.4.0"
+  }
+}
