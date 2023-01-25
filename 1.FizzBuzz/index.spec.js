@@ -1,9 +1,10 @@
 const fizzBuzz = require('./index');
 
-it('should toDo', () => {
-  fizzBuzz();
-  
-  const actual = null;
-  const expected = null;
-  expect(actual).toEqual(expected);
+describe('FizzBuzz tests', () => {
+  // This is just a starting point. Delete or update this test.
+  test('Given input 1 should return the number', () => {
+    const result = fizzBuzz(1);
+
+    expect(result).toEqual(1);
+  });
 });
